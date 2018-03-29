@@ -50,7 +50,7 @@ $(document).ready(function() {
         var partConsonant = word.slice(0, i);
         console.log(i);
         var partVowel = word.slice(i);
-        word = partVowel+partConsonant+"ay";
+        word = partVowel+partConsonant+"ay ";
         break
       }
       }
